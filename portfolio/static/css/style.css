@@ -1,0 +1,51 @@
+#page1, #page2, #page3 {
+	min-height: 850px;
+}
+
+#page1 {
+	background-image: url("../../images/page1.jpeg");
+	background-size: cover;
+}
+
+#page2 {
+	background-image: url("../../images/page2.jpeg");
+	background-size: cover;
+}
+
+#page3 {
+	background-image: url("../../images/page3.jpeg");
+	background-size: cover;
+}
+
+#page4 {
+	/*background-image: url("../../images/page4.jpeg");
+	background-size: cover;*/
+}
+
+#page1 .container {
+	margin-top: 100px;
+}
+
+#page2 .container {
+	padding-top: 100px;
+}
+
+.vertical-center {
+  min-height: 75%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 75vh; /* These two lines are counted as one :-)       */
+
+  display: flex;
+  align-items: center;
+}
+
+.projects {
+	border-radius: 50%;
+	background-size: cover;
+}
+
+.profile {
+	border-radius: 50%;
+	height: 250px;
+	width: 250px;
+	float: right;
+}
