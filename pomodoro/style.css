@@ -1,0 +1,23 @@
+h1 {
+	display: inline;
+}
+
+body {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.timer-container {
+	margin-top: 35px;
+}
+
+.timer {
+	padding: 15px 0px;
+}
+
+.container-timeup {
+	padding-top: 15px;
+	padding-left: 0px;
+}
