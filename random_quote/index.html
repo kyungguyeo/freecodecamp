@@ -1,20 +1,27 @@
+<!DOCTYPE html>
 <html>
 <head>
 	<title>Random Quote Generator</title>
-	
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-xWeRKjzyg6bep9D1AsHzUPEWHbWMzlRc84Z0aG+tyms= sha512-mGIRU0bcPaVjr7BceESkC37zD6sEccxE+RJyQABbbKNe83Y68+PyPM5nrE1zvbQZkSHDCJEtnAcodbhlq2/EkQ==" crossorigin="anonymous">
+	<link href="style.css" rel="stylesheet">
 </head>
 <body>
-	<!-- <blockquote id="qod-quote">
-	   <p class="qod-text">
-	      Keep it simple, stupid!
-	   </p>
-	   <p class="qod-author">
-	      <a href="http://quotesondesign.com/?p=192">
-	         &mdash; Old Saying
-	      </a>
-	   </p>
-	</blockquote> -->
-	<span style="z-index:50;font-size:0.9em;"><img src="https://theysaidso.com/branding/theysaidso.png" height="20" width="20" alt="theysaidso.com"/><a href="https://theysaidso.com" title="Powered by quotes from theysaidso.com" style="color: #9fcc25; margin-left: 4px; vertical-align: middle;">theysaidso.com</a></span>
+	<div class="container">
+		<div class="card card-inverse card-primary text-xs-center">
+		  <div class="card-block">
+		    <blockquote class="card-blockquote">
+		      <p class="quote-body"></p>
+		      <footer class="quote-author"><cite title="Source Title"></cite></footer>
+		    </blockquote>
+		  </div>
+		  <div class="card-block">
+		    <button class="btn btn-success" id="newquote">New Quote</button>
+		    <a href="https://www.twitter.com" target="_blank" class="btn btn-info" id="tweet">Tweet</a>
+		  </div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+	<script src="script.js"></script>
 </body>
 </html>
