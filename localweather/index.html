@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/meteocons-font/FONT/Font-face/stylesheet.css">
+	<link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.6.0/pure-min.css">
+</head>
+<body>
+	<div class="splash">
+		<form class='zipcode'>
+			<input type='text'></input>
+		</form>
+		<button class="getweather pure-button pure-button-primary">Get Weather</button>
+	</div>
+	<h3 class="temperature"></h3>
+	<div>
+		<button class="pure-button" type="button" id="to_f">Convert to F</button>
+		<button class="pure-button" type="button" id="to_c">Convert to C</button>
+	</div>
+	<h3 class="city"></h3>
+	<h3 class="typeofday"></h3>
+	<h1 class="dayicon"></h1>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
